@@ -30,7 +30,7 @@ public class MainDeadlock {
             System.out.println("t2 starten");
             synchronized (lockObj2) {
                 try {
-//                    sleep(500);
+                    sleep(500);
                 } catch (InterruptedException e) {
                     throw new RuntimeException(e);
                 }
